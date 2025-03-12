@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "name": "infokes_be",
+  "devDependencies": {
+    "@elysiajs/swagger": "^1.2.2",
+    "@types/bun": "latest",
+    "@types/node": "^22.13.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "elysia": "^1.2.25",
+    "mysql2": "^3.13.0"
+  }
+}
